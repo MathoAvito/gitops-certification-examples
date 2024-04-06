@@ -3,6 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simple-deployment
+  label: argocd-trigger
 spec:
   replicas: 1
   selector:
